@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>About | Mindful Matthew</title>
+</head>
+<body>
+  <header>
+    <nav class="site-nav grid">
+      <div>
+        <h1>mm</h1>
+        <p>mindful matthew</p>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article class="article-container">
+      <h2 class="article-title">About Me</h2>
+      <section class="article-section">
+        <h3 class="article-subtitle">Who Am I?</h3>
+        <img src="img/matt-150.jpg" alt="matt" class="article-img">
+        <p class="article-content">My name is Matt and I live in sunny south Florida. When I am not behind a computer working on a project, I am likely at the gym practicing Muay Thai or watching live sports at home.</p><br>
+        <p class="article-content">I have spent most of my 20's learning what makes me happy and how I would like to spend the rest of my life. It has not always been an easy journey, but I am very content with where I am in life and look forward to the future.</p>
+      </section>
+      <section id="web-developer" class="article-section">
+        <h3 class="article-subtitle">Web Developer</h3>
+        <p class="article-content">While 2020 has most certainly brought much doom and gloom, it has also delivered a useful time to pursue new opportunities. I was laid off from my job as a restaurant server and found myself unsure of what to do.</p><br>
+        <p class="article-content">I knew I did not want to look for another job in restaurant work. After spending countless hours of research, I decided that learning front-end development would be a great path for me.</p><br>
+        <p class="article-content">I was wise to listen to a YouTuber who strongly emphasized the importance of creating <em>your own projects</em>. I am proud to mention that I have handmade this web project <em>on my own</em></p>
+      </section>
+      <section id="fitness-enthusiast" class="article-section">
+        <h3 class="article-subtitle">Fitness Enthusiast</h3>
+        <p class="article-content">All my life I have either been involved in sports of training in a gym. I have been a competitive cheerleader, won a bodybuilding contest, and practiced Muay Thai. Exercise is in my blood and I cannot live without it.</p><br>
+        <p class="article-content">Keeping on a fitness schedule is what keeps me on an even keel. These days I do not care much about having a certain physique or emulating a certain idol. I just care about feeling good and keeping myself in a good mood - and that is exactly what exercise and a clean diet can do for me.</p>
+      </section>
+      <section id="music-addict" class="article-section">
+        <h3 class="article-subtitle">Music Addict</h3>
+        <p class="article-content">I have always loved to spend time enjoying music and it seems bizarre to me that there are people who do not. There is nothing more pleasurable than vibing to a good tune and feeling free and happy.</p><br>
+        <p class="article-content">These days I seem to spend most of my time listening to either electronic or rap music. I am always finding new artists and genres to dive into.</p>
+      </section>
+      <hr class="hr-accent">
+  
+    </article>
+    <section id="articles">
+      <h3>Featured Articles</h3>
+      <ul class="grid">
+        <li>
+          <a href="article-career.html">
+            <img src="img/career.jpg" alt="handshake">
+            <h4>Transitioning Careers During a Pandemic</h4>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/running.jpg" alt="running">
+            <h4>Why I Run in the Mornings</h4>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/mma.jpg" alt="fighters">
+            <h4>Sports I've Been Keeping Up With</h4>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/music.jpg" alt="headphones">
+            <h4>My Favorite Music to Program to</h4>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <div class="form-container">
+        <h3>Get in Touch</h3>
+        <p class="leading">Let me know what you think!</p>
+        <form name="contact" method="POST" netlify>
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="message" placeholder="What's on your mind?" required></textarea>
+          <button class="button" type="submit">GO!</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <hr class="hr-accent">
+    </nav>
+    <div>
+      <p class="copyright">Handmade with Love <br> Copyright 2020 - Matt Dillemuth</p>
+    </div>
+  </footer>
+</body>
+</html>

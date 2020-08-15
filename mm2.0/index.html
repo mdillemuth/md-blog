@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Home | Mindful Matthew</title>
+</head>
+<body>
+  <header>
+    <nav class="site-nav grid">
+      <div>
+        <h1>mm</h1>
+        <p>mindful matthew</p>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="welcome" class="grid">
+    <div class="welcome-text">
+      <h2>Fitness Enthusiast <br> & Web Developer</h2>
+      <p class="leading">I like to spend my free-time exercising, listening to music, and watching Formula 1. </p>
+      <a href="#about" class="button">Learn More</a>
+    </div>
+    <div class="welcome-img">
+      <img src="img/lewis.jpg" alt="banner-image">
+    </div>
+  </section>
+  <section id="about">
+    <h3>About Me</h3>
+    <div class="grid interests">
+      <a href="about.html#web-developer">
+        <img src="img/web.jpg" alt="interest1">
+        <h4>Web Developer</h4>
+      </a>
+      <a href="about.html#fitness-enthusiast">
+        <img src="img/muaythai.jpg" alt="interest2">
+        <h4>Fitness Enthusiast</h4>
+      </a>
+      <a href="about.html#music-addict">
+        <img src="img/edm.jpg" alt="interest3">
+        <h4>Music Addict</h4>
+      </a>
+    </div>
+    <a href="about.html" class="button button-about">Read More</a>
+  </section>
+  <section id="articles">
+    <h3>Featured Articles</h3>
+    <ul class="grid">
+      <li>
+        <a href="#">
+          <img src="img/career.jpg" alt="handshake">
+          <h4>Transitioning Careers During a Pandemic</h4>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/running.jpg" alt="running">
+          <h4>Why I Run in the Mornings</h4>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/mma.jpg" alt="fighters">
+          <h4>Sports I've Been Keeping Up With</h4>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/music.jpg" alt="headphones">
+          <h4>My Favorite Music to Program to</h4>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <section id="contact">
+    <div class="form-container">
+      <h3>Get in Touch</h3>
+      <p class="leading">Let me know what you think!</p>
+      <form name="contact" method="POST" netlify>
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="What's on your mind?" required></textarea>
+        <button class="button" type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <hr class="hr-accent">
+    </nav>
+    <div>
+      <p class="copyright">Handmade with Love <br> Copyright 2020 - Matt Dillemuth</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 0 0 4px gray;
+}
+
+.hero-image {
+  height: 100%;
+  background: url('images/background.jpg') no-repeat center;
+  background-size: cover;
+  margin: 0;
+}
+
+header {
+  color: white;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  font-size: 1rem;
+  margin: .5rem;
+  padding: .5rem;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul li:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: all 200ms;
+}
+
+.logo {
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: .5rem;
+  padding: .5rem;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+main {
+  color: white;
+  margin-top: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 200;
+  font-size: 2.5rem;
+  font-family: 'Comfortaa', cursive;
+  word-spacing: 1rem;
+}
+
+.sub-title {
+  letter-spacing: .5px;
+  text-shadow: 0 0 5px gray;
+  margin-top: .5rem;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.btn {
+  letter-spacing: 1px;
+  padding: .5em 1em;
+  margin-top: 3rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0a8;
+  transition: all 200ms;
+}
+
+footer {
+  background-color: #253334;
+  text-shadow: none;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  font-size: .75rem;
+  color: white;
+  text-align: center;
+}
+
+.attribute {
+  color: white;
+  text-decoration: none;
+}
+
+/* End Home Page Styling */
+/* Start Contact Page Styling */
+
+.contact-main {
+  margin-top: 1rem;
+}
+
+.contact-container {
+  width: 40%;
+  min-width: 400px;
+  padding: 1rem 1rem;
+  height: fit-content;
+  border-radius: 5px;
+  background-color: #25333488;
+  color: white;
+}
+
+.contact-title {
+  font-size: 2rem;
+  word-spacing: .75rem;
+  margin-bottom: .5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+label {
+  width: 100%;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  line-height: 1.5;
+  padding: .5rem;
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+input:focus, textarea:focus {
+  border-color: #0a8;
+}
+
+textarea {
+  padding: .5rem;
+  width: 100%;
+  height: 5rem;
+  min-height: 5rem;
+  max-height: 9rem;
+  outline: none;
+  border: 2px solid white;
+  resize: vertical;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  background-color: transparent;
+  color: white;
+}
+
+.btn-submit {
+  width: 100%;
+  font-size: 1.25rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  transform: none;
+  background-color: #0a8;
+  transition: all 200ms;
+}
+
+/* Styling for About */
+
+.title-about {
+  margin: 0;
+  word-spacing: 7.5px;
+}
+
+.section-about {
+  width: 50%;
+  min-width: 400px;
+  margin: 0;
+  padding: 1rem;
+  color: white;
+  text-shadow: none;
+  background-color: #25333488;
+  border-radius: 5px;
+}
+
+.profile-pic {
+  margin: 0;
+  padding: 0;
+  border-radius: 99999999px;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section-about .btn-about {
+  display: block;
+  margin-top: 1rem;
+}
