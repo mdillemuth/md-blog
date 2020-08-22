@@ -1,0 +1,97 @@
+
+
+$primary-color: #00a6a4;
+$secondary-color: #ff9331;
+
+
+$text-color: #393a3d;
+$text-accent: #8d9096;
+
+$primary-font: 'Open Sans', sans-serif;
+$secondary-font: 'Roboto', sans-serif;
+
+h1,h2,h3,h4,h5,h6,li,a {
+  font-family: $primary-font;
+  font-weight: 500;
+}
+p {
+  font-family: $secondary-font;
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  // height: 200vh;
+}
+
+body {
+  background: url('../img/flip.jpg');
+  background-size: cover;
+  background-position: center/center;
+  background-position-y: -200px;
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+
+  .welcome-container {
+    margin-left: 150px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+
+    h1 {
+      color: $text-color;
+      margin-top: 60px;
+      width: 100%;
+      font-size: 48px;
+      font-weight: 600;
+      // text-align: center;
+    }
+
+    p {
+      color: #444444;
+      max-width: 30%;
+    }
+
+    h2 {
+      margin-top: 50px;
+      color: $secondary-color;
+      max-width: 50%;
+    }
+  }
+
+  nav {
+    margin: 0;
+    padding: 0;
+  
+    ul {
+      background-color: $primary-color;
+      padding: 0;
+      list-style: none;
+      margin: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-content: center;
+    }
+    li {
+      color: #fff;
+      padding: 1rem;
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin: 0;
+    }
+    li:hover {
+      color: $secondary-color;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
